@@ -3,6 +3,7 @@ from welcome import welcome
 from codigo.data import data_contador_palabras as texto
 from codigo.contador_palabras import ContadorPalabras
 
+
 def main():
 
     print(welcome)
@@ -22,7 +23,10 @@ def main():
         
         print(f"{palabra_objetivo} se repite {conteo} veces en el texto.")
 
+        input("\nPresione cualquier tecla para continuar...")
+        main()
 
+        
     elif seleccion == 1:
         pass
 
