@@ -1,4 +1,4 @@
-import os, unittest
+import unittest
 from codigo.contador_palabras import ContadorPalabras
 
 class TestContadorPalabras(unittest.TestCase):
