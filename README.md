@@ -25,9 +25,16 @@ criteria1 = [
 
 criteria2 = [
     ('width', '>=', 2),
-    ('lenght', '<=', 20)
-]
+    ('lenght', '<=', 20) ]
 
+```
+
+Muestra de entrada:
+```
+data_ordenamiento_array = [
+  {"id": 12340, "weight": 1, "width": 1, "height": 1, "length": 1, "cost": 125, "priority": 2},
+  {"id": 12341, "weight": 1, "width": 1, "height": 1, "length": 1, "cost": 127, "priority": 4},
+  ...
 ```
 
 ## Ejecución
