@@ -1,3 +1,37 @@
+"""
+<Python Skill Test>
+Este repositorio implementa dos ejercicios:
+- Contador de palabras
+- Ordenamiento de array
+
+Autor: Daniel Limón
+Email: dani@dlimon.net
+
+Ejercicio 1: Contador de palabras
+----------------------------------
+Cuenta la ocurrencia de una palabra específica para un texto dado.
+
+Ejercicio 2: Ordenamiento de array
+----------------------------------
+Ordena un array de tuplas según dos criterios:
+1. Criterio 1: Filtrar y ordenar elementos según criterio de búsqueda
+2. Criterio 2: Ordenar elementos filtrados según key objetivo (priority)
+
+Uso:
+----
+1. Ejecutar main.py
+2. Seleccionar ejercicio a ejecutar
+3. Seguir instrucciones en consola
+
+Dependencias:
+-------------
+- Python >= 3.8
+- welcome.py: Módulo con mensaje de bienvenida
+- data: Módulo con datos usados en ambos ejercicios
+- contador_palabras: Módulo con clase ContadorPalabras
+- ordenamiento_array: Módulo con clase OrdenamientoArray
+"""
+
 from welcome import welcome
 
 # Datos usados en ambos módulos de la prueba.

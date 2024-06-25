@@ -1,24 +1,23 @@
 import re
 
 class ContadorPalabras:
-    """
-        Clase para contar las veces que una paalbraa objetivo se
-        repite en un texto.
+    """Clase para contar las veces que una paalbraa objetivo se
+    repite en un texto.
 
-        Atributos:
-        contador: int
-            Almacena el número de veces que se repite la palabra
+    Atributos:
+    contador: int
+        Almacena el número de veces que se repite la palabra
 
-        Métodos:
+    Métodos:
         
-        __init__(self: object) -> None
-            Constructor de clase. Inicializa contador en cero.
+    __init__(self: object) -> None
+        Constructor de clase. Inicializa contador en cero.
 
-        contar_palabras(self: object,
-                        texto: str,
-                        palabra_objetivo: str) -> int
-            Cuenta las veces que una palabra objetivo se repite en un
-            texto usando expresiones regulares en la limpieza del texto.
+    contar_palabras(self: object,
+                    texto: str,
+                    palabra_objetivo: str) -> int
+        Cuenta las veces que una palabra objetivo se repite en un
+        texto usando expresiones regulares en la limpieza del texto.
     """
 
     def __init__(self: object) -> None:
@@ -30,8 +29,7 @@ class ContadorPalabras:
                         texto: str,
                         palabra_objetivo: str) -> int:
         
-        """
-        Cuenta las ocurrencias de la palabra objetivo en el texto.
+        """Cuenta las ocurrencias de la palabra objetivo en el texto.
 
         Parámetros:
         - texto: str
